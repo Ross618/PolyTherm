@@ -30,14 +30,17 @@
   
       <div id="app">
 
-        @include ('layouts.navbar')
-  
-  
-        <!-- Begin Content -->
-  
-        @yield('content')
-  
-        <!-- End Content  -->
+        <div class="poly">
+
+          <navbar></navbar>
+    
+    
+          <!-- Begin Content -->
+    
+          @yield('content')
+    
+          <!-- End Content  -->
+        </div>
       </div>
   
     </body>

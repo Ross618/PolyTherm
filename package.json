@@ -20,6 +20,7 @@
         "vue": "^2.5.16"
     },
     "dependencies": {
+        "element-ui": "^2.4.5",
         "eslint": "^5.2.0"
     }
 }
