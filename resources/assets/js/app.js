@@ -18,10 +18,9 @@ Vue.use(Element)
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-Vue.component('navbar', require('./components/navbar.vue'));
 Vue.component('home', require('./components/home.vue'));
+Vue.component('navbar', require('./components/navbar.vue'));
+Vue.component('poly-footer', require('./components/poly-footer.vue'));
 
 const app = new Vue({
     el: '#app'

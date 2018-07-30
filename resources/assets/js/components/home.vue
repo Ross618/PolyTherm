@@ -1,6 +1,87 @@
 <template>
 <div>
 
+  <div class="hero">
+
+      <!-- <template>
+      <vue-particles style="width:100%;height:100%"
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+      >
+      </vue-particles>
+      </template> -->
+      <!-- <img class="__home_image a1 fadeIn" src="~/static/finch/B2BChar.svg" style="width:480px;height:480px; position: absolute; right:-15px;" align="right"> -->
+      <template>
+        
+        <!-- <div class="home--form animated fadeInLeft">
+          <el-form :inline="false" label-position="top" label-width="100px" :model="form" ref="requirements" :rules="rules">
+            <el-form-item label="Loan Amount" prop="loan_amount">
+              <el-input v-model.number="form.loan_amount" autofocus>
+                <template slot="prepend">R</template>
+              </el-input>
+            </el-form-item>
+            <el-form-item label="Registered Company Name" prop="company_name">
+              <el-input v-model="form.company_name"></el-input>
+            </el-form-item>
+            <el-form-item label="Email" prop="email">
+              <el-input v-model="form.email"></el-input>
+            </el-form-item>
+            <el-form-item label="">
+              <el-button @click="beginApplication()" type="primary">Get Loan Offers Now</el-button>
+            </el-form-item>
+          </el-form>
+          
+        </div> -->
+        <div class="__prompt">
+          <h1>PolyTherm is dedicated to making the world a better place by creating machinary and cunting edge technology which allows plastic to be recycled and used to fuel the future!</h1>
+          <h3>We are dedicated to blah blah blah...</h3>
+        </div>
+
+        <!-- <div class="wrap-banner">
+        <div class="main-title">
+          <h1>PolyTherm is dedicated to making the world a better place by creating machinary and cunting edge technology which allows plastic to be recycled and used to fuel the future!</h1>
+          <h3>We are dedicated to blah blah blah...</h3>
+        </div>
+        </div> -->
+        <!-- <vue-particles :is="asyncComp" style="width:100%;height:100%;position:absolute"
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+      >
+      </vue-particles> -->
+       
+      </template>
+      <!-- <div class="__slogan" v-if="$nuxt.$route.path === '/apply'">
+        <h1>Business Loan Application</h1>
+      </div> -->
+       
+    </div>
+
   <div class="headline __invert">
     <h1>We Turn Plastic into Fuel with <span class="highlight">Cutting Edge Technology</span></h1>
     <div class="__cta">
@@ -244,7 +325,7 @@ export default {
     };
   },
   mounted() {
-    //console.log($nuxt.$route.name + " mounted");
+    console.log("Home Mounted");
     // localforage.setItem("lead", "fish").then(() => {
     //   //
     // });

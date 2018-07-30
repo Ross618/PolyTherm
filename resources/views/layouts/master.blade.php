@@ -40,6 +40,9 @@
           @yield('content')
     
           <!-- End Content  -->
+
+          <poly-footer></poly-footer>
+
         </div>
       </div>
   
