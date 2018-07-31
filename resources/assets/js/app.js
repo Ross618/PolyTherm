@@ -10,6 +10,8 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import Element from 'element-ui'
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
  
 Vue.use(Element)
 

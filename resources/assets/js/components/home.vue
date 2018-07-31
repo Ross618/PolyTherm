@@ -56,13 +56,13 @@
           <h3>We are dedicated to blah blah blah...</h3>
         </div>
         </div> -->
-        <!-- <vue-particles :is="asyncComp" style="width:100%;height:100%;position:absolute"
-        color="#dedede"
+        <vue-particles style="width:100%;height:100%;position:absolute"
+        color="#2941f0"
         :particleOpacity="0.7"
         :particlesNumber="80"
         shapeType="circle"
         :particleSize="4"
-        linesColor="#dedede"
+        linesColor="#2941f0"
         :linesWidth="1"
         :lineLinked="true"
         :lineOpacity="0.4"
@@ -73,7 +73,7 @@
         :clickEffect="true"
         clickMode="push"
       >
-      </vue-particles> -->
+      </vue-particles>
        
       </template>
       <!-- <div class="__slogan" v-if="$nuxt.$route.path === '/apply'">
