@@ -2,28 +2,6 @@
 <div>
 
   <div class="hero">
-
-      <!-- <template>
-      <vue-particles style="width:100%;height:100%"
-        color="#dedede"
-        :particleOpacity="0.7"
-        :particlesNumber="80"
-        shapeType="circle"
-        :particleSize="4"
-        linesColor="#dedede"
-        :linesWidth="1"
-        :lineLinked="true"
-        :lineOpacity="0.4"
-        :linesDistance="150"
-        :moveSpeed="3"
-        :hoverEffect="true"
-        hoverMode="grab"
-        :clickEffect="true"
-        clickMode="push"
-      >
-      </vue-particles>
-      </template> -->
-      <!-- <img class="__home_image a1 fadeIn" src="~/static/finch/B2BChar.svg" style="width:480px;height:480px; position: absolute; right:-15px;" align="right"> -->
       <template>
         
         <!-- <div class="home--form animated fadeInLeft">
@@ -46,8 +24,8 @@
           
         </div> -->
         <div class="__prompt">
-          <h1>PolyTherm is dedicated to making the world a better place by creating machinary and cunting edge technology which allows plastic to be recycled and used to fuel the future!</h1>
-          <h3>We are dedicated to blah blah blah...</h3>
+          <h1>Supplying the plastics industry with quality services and materials</h1>
+          <h3>Expert plastic recycling services tailored to your requirements</h3>
         </div>
 
         <!-- <div class="wrap-banner">
@@ -56,7 +34,7 @@
           <h3>We are dedicated to blah blah blah...</h3>
         </div>
         </div> -->
-        <vue-particles style="width:100%;height:100%;position:absolute"
+        <vue-particles class="particles"
         color="#2941f0"
         :particleOpacity="0.7"
         :particlesNumber="80"
@@ -76,17 +54,14 @@
       </vue-particles>
        
       </template>
-      <!-- <div class="__slogan" v-if="$nuxt.$route.path === '/apply'">
-        <h1>Business Loan Application</h1>
-      </div> -->
        
     </div>
 
   <div class="headline __invert">
-    <h1>We Turn Plastic into Fuel with <span class="highlight">Cutting Edge Technology</span></h1>
+    <h1>From colour sorting and separation to polymer compounding, PolyTherm has it covered</h1>
     <div class="__cta">
-      <a href="/how-it-works">
-        <el-button type="success">How it works</el-button>
+      <a href="/services">
+        <el-button type="success">Services</el-button>
       </a>
     </div>
   </div>
@@ -95,64 +70,43 @@
 
   <div class="why">
     <div class="headline">
-    <h1><span class="highlight">What</span> is PolyTherm?</h1>
+    <h1>Welcome to PolyTherm – A leading South African plastic waste recycler</h1>
   </div>
     <div class="__icons">
       <div class="__icon">
           
       <img src='/images/Film shredder.jpg' style="width:100%">
 
-        <h2>Awesome Machinery and cutting edge technology</h2>
+        <h2>Regrinds</h2>
         <p style="text-align:center">
-            PolyTherm is ... Insert more text here
+            High quality plastic regrinds suitable for all your needs.
         </p>
       </div>
       <div class="__icon">
           
       <img src='/images/Granulator.jpg' style="width:100%">
 
-        <h2>Place Holder Text</h2>
+        <h2>Separation</h2>
         <p style="text-align:center">
-            Add More text. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+            State of the art separation technology – even by colour! 
         </p>
       </div>
       <div class="__icon">
           
       <img src='/images/Aglomorator.jpg' style="width:100%">
 
-        <h2>Place Holder Text</h2>
+        <h2>Compounds</h2>
         <p style="text-align:center">
-           Add More text. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        </p>
-      </div>
-    </div>
-
-    <div class="__icons">
-      <div class="__icon">
-          
-      <img src='/images/double shaft shredder.jpg' style="width:100%">
-
-        <h2>Awesome Machinery and cutting edge technology</h2>
-        <p style="text-align:center">
-            PolyTherm is ... Insert more text here
+           Superior polymer compounds made to your specifications. 
         </p>
       </div>
       <div class="__icon">
           
-      <img src='/images/label remover 3.jpg' style="width:100%">
+      <img src='/images/Aglomorator.jpg' style="width:100%">
 
-        <h2>Place Holder Text</h2>
+        <h2>We Buy Plastic Scrap</h2>
         <p style="text-align:center">
-            Add More text. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        </p>
-      </div>
-      <div class="__icon">
-          
-      <img src='/images/vertical dewaterizer.jpg' style="width:100%">
-
-        <h2>Place Holder Text</h2>
-        <p style="text-align:center">
-           Add More text. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+           We recycle scrap including manufacturers & packaging waste. 
         </p>
       </div>
     </div>

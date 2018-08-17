@@ -4,8 +4,8 @@
     <!-- <h1>Fincheck Business</h1> -->
     <div class="__logo">
       <a href="/">
-      <img src="/images/LogoMakr_7zX4ST.png" style="width:40px;height:50px;" alt="Fincheck Business Logo">
-        <h1 style="width:150px;height:40px; padding-left:15px; padding-bottom: 5px;">PolyTherm</h1>
+      <img src="/images/logo2.png" style="width:60px;height:60px;" alt="Poly Logo">
+        <img src="/images/PolyText2.png" style="width:160px;height:50px;" alt="Poly Logo">
       </a>
 
     </div>

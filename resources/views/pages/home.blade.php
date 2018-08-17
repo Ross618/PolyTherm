@@ -4,7 +4,7 @@
 PolyTherm
 @endsection
 
-@section('title')  Dashboard @endsection
+@section('title')Home @endsection
 
 @section('content')
 

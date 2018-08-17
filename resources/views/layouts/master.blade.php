@@ -19,7 +19,7 @@
         <!-- Styles -->
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-        <title> @yield('title') | PolyTherm</title>
+        <title>PolyTherm | @yield('title')</title>
 
         @yield('head')
 

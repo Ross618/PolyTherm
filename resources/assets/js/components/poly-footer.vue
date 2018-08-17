@@ -5,8 +5,8 @@
     <div class="container">
       <div class="__logo">
         <a href="/">
-          <img src="/images/flame-icon.png" style="width:60px;height:90px;" alt="PolyTherm Logo">
-          <img src="/images/polytext2.png" style="width:200px;height:55px; padding-left:15px; padding-bottom: 5px;" alt="PolyTherm Logo">
+          <img src="/images/logo1.png" style="width:80px;height:80px;" alt="PolyTherm Logo">
+          <img src="/images/PolyText.png" style="width:200px;height:60px; padding-left:15px; padding-bottom: 5px;" alt="PolyTherm Logo">
         </a>
       </div>
       <!-- <h6>

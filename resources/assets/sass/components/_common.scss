@@ -111,7 +111,7 @@
      flex-wrap: nowrap;
      justify-content: center;
      align-items: center;
-     background-color: rgba(255, 255, 255, 0.904);
+     background-color: rgba(41, 64, 240, 0.904);
  
      h1 {
        display: none;
@@ -133,11 +133,12 @@
            }
          }
        }
-       @media (max-width: 800px) {
+       @media (max-width: 831px) {
          display: none;
        }
        @media (max-width: 600px) {
          display: block;
+         text-align: center;
        }
      }
  
@@ -150,7 +151,7 @@
  
        a {
          margin: 0 5px;
-         color: $polyBlue;
+         color: #fff;
          font-size: 1.3rem;
          font-family: 'Raleway Dots';
          // text-shadow: 1px 1px $polyBlue;
@@ -284,6 +285,17 @@
      @media (max-width: 800px) {
        flex-direction: column;
        }
+
+     .particles {
+      position:absolute;
+      width:100%;
+      min-height: 550px;
+      height:100%;
+
+      canvas {
+        min-height: 550px;
+      }
+     }
  
      .__slogan {
        width: 100%;
@@ -330,6 +342,10 @@
        h3 {
          color: rgba($polyBlue, 0.8);
          text-align: center;
+         margin: 0px 80px;
+         padding: 5px;
+         background: #fff;
+         border-radius: 8px;
        }
      }
  
@@ -661,11 +677,12 @@
        text-align: center;
        margin: 0;
        color: $polyBlue;
+       font-size: 30px;
      }
  
      &.__invert {
        padding: 50px 0px;
-       background: $grey-light;
+       background-color: rgba(41, 64, 240, 0.904);
        border-top: 1px solid rgba($polyBlue, 0.8);
        border-bottom: 1px solid rgba($polyBlue, 0.8);
  
@@ -677,6 +694,12 @@
            padding: 8px 30px;
          }
        }
+       h1 {
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: 30px;
+      }
      }
    }
  
@@ -1140,12 +1163,12 @@
      .__icon {
        padding: 20px;
        background: $grey-light;
-       border-radius: 3px;
+       border-radius: 15px;
        min-width: 200px;
-       max-width: 300px;
-       height: 400px;
-       box-shadow: 0 1px 5px 0 rgba(0,0,0,.175);
-       margin: 5px;
+       max-width: 250px;
+       height: 300px;
+       box-shadow: 0 1px 5px 0 $polyBlue;
+       margin: 10px;
  
        h2 {
          text-align: center;
