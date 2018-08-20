@@ -30,7 +30,7 @@
       <h1>How does it work?</h1>
       <p>
         We have partnered with South Africa’s biggest alternative lenders and it is our intention to match borrowers with the most
-        appropriate form of finance for their business. Below is a simple summary of our How it works process. <nuxt-link to="/how-it-works">Click here</nuxt-link> to view
+        appropriate form of finance for their business. Below is a simple summary of our How it works process. <a href="/how-it-works">Click here</a> to view
         the full process!
       </p>
       <p>
@@ -44,7 +44,7 @@
       </p>
       <p>
         To read more about this, see
-        <nuxt-link to="/how-it-works">How It Works</nuxt-link>.
+        <a href="/how-it-works">How It Works</a>.
       </p>
       </div>
     </div>
@@ -86,8 +86,8 @@
 </template>
 
 <script>
-import localforage from "localforage";
-import section from "../components/apply-section";
+// import localforage from "localforage";
+// import section from "../components/apply-section";
 
 export default {
   head(){
@@ -105,25 +105,25 @@ export default {
   },
   mounted() {
     console.log("About Us Mounted");
-    window.scroll({
-      top: 500,
-      left: 0,
-      behavior: "smooth"
-    });
-    localforage.setItem("lead", "fish").then(() => {
-      //
-    });
-    localforage
-      .getItem("lead")
-      .then(value => {
-        if (value !== null) {
-          console.log(value);
-        }
-      })
-      .catch(err => {});
+    // window.scroll({
+    //   top: 500,
+    //   left: 0,
+    //   behavior: "smooth"
+    // });
+    // localforage.setItem("lead", "fish").then(() => {
+    //   //
+    // });
+    // localforage
+    //   .getItem("lead")
+    //   .then(value => {
+    //     if (value !== null) {
+    //       console.log(value);
+    //     }
+    //   })
+    //   .catch(err => {});
   },
   components: {
-    'apply-section' : section
+    // 'apply-section' : section
   }
 };
 </script>

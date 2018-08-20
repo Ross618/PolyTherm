@@ -23,6 +23,7 @@ Vue.use(Element)
 Vue.component('home', require('./components/home.vue'));
 Vue.component('navbar', require('./components/navbar.vue'));
 Vue.component('poly-footer', require('./components/poly-footer.vue'));
+Vue.component('about', require('./components/about.vue'));
 
 const app = new Vue({
     el: '#app'
